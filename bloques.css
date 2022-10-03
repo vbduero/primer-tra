@@ -1,0 +1,12 @@
+h1{
+    background: #4C0033;
+    color: whitesmoke;
+    display: inline-block; 
+}
+
+a{
+    background: #CDF0EA;
+    color: #4C0033;
+    display: block;
+}
+
