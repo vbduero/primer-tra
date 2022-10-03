@@ -21,11 +21,11 @@ print("{}:{}:{}".format(tiempo.hour,tiempo.minute,tiempo.second))
 
 class Cliente:
 
-    #def __init__(self, root):
-        #self.wind = root
-        #self.wind.title("RECIBO")
-        #self.wind.geometry("850x600")
-        #self.wind.config(bg="teal")
+    def __init__(self, root):
+        self.wind = root
+        self.wind.title("RECIBO")
+        self.wind.geometry("850x600")
+        self.wind.config(bg="teal")
         
 
     def __init__(self):
@@ -132,7 +132,7 @@ factura.fin()
 
 root = Tk()
 
-#root.title("RECIBO")
+root.title("RECIBO")
 
 root.mainloop()
 
